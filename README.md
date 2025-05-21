@@ -210,7 +210,7 @@ This assignment reinforces your understanding of relational databases while enga
 
 ```
 
-7️⃣ **Update all species discovered before 2000 to have status 'Historic'.**
+7️⃣ **Update all species discovered before year 1700 to have status 'Historic'.**
 
 **Sample Output:**
 
@@ -219,6 +219,10 @@ This assignment reinforces your understanding of relational databases while enga
 ```
 
 8️⃣ **Label each sighting's time of day as 'Morning', 'Afternoon', or 'Evening'.**
+
+- Morning: before 12 PM
+- Afternoon: 12 PM–5 PM
+- Evening: after 5 PM
 
 **Sample Output:**
 
