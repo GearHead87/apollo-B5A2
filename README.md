@@ -151,6 +151,7 @@ This assignment reinforces your understanding of relational databases while enga
 **Sample Output:**
 
 ```markdown
+AffectedRows : 1
 (No output needed - this is an INSERT operation)
 ```
 
@@ -215,6 +216,7 @@ This assignment reinforces your understanding of relational databases while enga
 **Sample Output:**
 
 ```markdown
+AffectedRows : 3
 (No output needed - this is an UPDATE operation)
 ```
 
@@ -241,6 +243,7 @@ This assignment reinforces your understanding of relational databases while enga
 **Sample Output:**
 
 ```markdown
+AffectedRows : 1
 (No output needed - this is a DELETE operation)
 ```
 
