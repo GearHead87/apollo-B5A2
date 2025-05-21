@@ -144,7 +144,7 @@ This assignment reinforces your understanding of relational databases while enga
 
 ---
 
-## **📂 PostgreSQL Problems & Sample Outputs -> 50 Marks**
+## **📂 PostgreSQL Problems & Sample Outputs → 50 Marks**
 
 1️⃣ **Register a new ranger with provided data with name = 'Derek Fox' and region = 'Coastal Plains'**
 
@@ -261,7 +261,9 @@ This assignment reinforces your understanding of relational databases while enga
 
 ---
 
-## **📂 Bonus Section (Answer Any 5 Questions on readme.md in Bangla)  -> 10 Marks: **
+
+## **📂 Bonus Section (Answer Any 5 Questions on readme.md in Bangla) → 10 Marks**
+
 
 1. What is PostgreSQL?
 2. What is the purpose of a database schema in PostgreSQL?
