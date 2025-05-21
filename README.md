@@ -6,7 +6,7 @@
 
 ### **🌿 The Ranger and the Rare Animal**
 
-Meera is a forest ranger who protects wildlife in a nature reserve. She’s searching for the rare **Shadow Leopard** , which hasn’t been seen in months. To help track sightings and share data with scientists, she uses a simple database with three tables: **`rangers`**, **`species`**, and **`sightings`**. These help her log observations, learn about endangered animals, and find clues about where the Shadow Leopard might be hiding.
+Meera is a forest ranger who protects wildlife in a nature reserve. She’s searching for the rare **Shadow Leopard** , which hasn’t been seen in months. To help track sightings and share data with scientists, she uses a simple database with three tables: **`rangers`**, **`species`**, and **`sightings`**. These help her log observations, learn about endangered animals, and find clues about rare animals like the Shadow Leopard might be hiding.
 
 ---
 
