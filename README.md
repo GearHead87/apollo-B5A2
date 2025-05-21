@@ -42,33 +42,36 @@ This assignment reinforces your understanding of relational databases while enga
 ---
 
 ## 🧱 The 3 Main Tables `Meera` Uses:
-
-| Table Name | What It Stores |
-| --- | --- |
-| `rangers` | Information about rangers like Meera (name, contact, zone) |
-| `species` | Info about different animals (name, scientific name, how endangered they are) |
-| `sightings` | Records of when and where each animal was seen |
+```markdown
+| Table Name  | What It Stores                                                                |
+| ----------- | ----------------------------------------------------------------------------- |
+| `rangers`   | Information about rangers like Meera (name, contact, zone)                    |
+| `species`   | Info about different animals (name, scientific name, how endangered they are) |
+| `sightings` | Records of when and where each animal was seen                                |
+```
 
 ### 1️⃣ `rangers`
 
-| Field Name | Description |
-| --- | --- |
+```markdown
+| Field Name  | Description               |
+| ----------- | ------------------------- |
 | `ranger_id` | Unique ID for each ranger |
-| `name` | Full name of the ranger |
-| `region` | Area they patrol |
-
+| `name`      | Full name of the ranger   |
+| `region`    | Area they patrol          |
+```
 ---
 
 ### 2️⃣ `species`
 
-| Field Name | Description |
-| --- | --- |
-| `species_id` | Unique ID for each species |
-| `common_name` | Common name (e.g., "Shadow Leopard") |
-| `scientific_name` | Scientific name |
-| `discovery_date` | When the species was first recorded |
+```markdown
+| Field Name            | Description                            |
+| --------------------- | -------------------------------------- |
+| `species_id`          | Unique ID for each species             |
+| `common_name`         | Common name (e.g., "Shadow Leopard")   |
+| `scientific_name`     | Scientific name                        |
+| `discovery_date`      | When the species was first recorded    |
 | `conservation_status` | Status like "Endangered", "Vulnerable" |
-
+```
 > ✅ discovery_date helps track when a species was officially identified.
 > 
 
@@ -76,14 +79,16 @@ This assignment reinforces your understanding of relational databases while enga
 
 ### 3️⃣ `sightings`
 
-| Field Name | Description |
-| --- | --- |
-| `sighting_id` | Unique ID for each sighting |
-| `ranger_id` | Who made the sighting (links to `rangers`) |
-| `species_id` | Which animal was seen (links to `species`) |
-| `sighting_time` | Date and time of the sighting |
-| `location` | Where it was seen |
-| `notes` | Additional observations |
+```markdown
+| Field Name      | Description                                |
+| --------------- | ------------------------------------------ |
+| `sighting_id`   | Unique ID for each sighting                |
+| `ranger_id`     | Who made the sighting (links to `rangers`) |
+| `species_id`    | Which animal was seen (links to `species`) |
+| `sighting_time` | Date and time of the sighting              |
+| `location`      | Where it was seen                          |
+| `notes`         | Additional observations                    |
+```
 
 > ✅ sighting_time tracks when an animal was seen — very useful for monitoring wildlife activity.
 > 
@@ -92,11 +97,12 @@ This assignment reinforces your understanding of relational databases while enga
 
 ## 🔗 Relationships Between Tables
 
-| Relationship | Description |
-| --- | --- |
+```markdown
+| Relationship           | Description                                       |
+| ---------------------- | ------------------------------------------------- |
 | `sightings`→ `rangers` | Each sighting is linked to the ranger who made it |
-| `sightings`→ `species` | Each sighting is linked to a specific species |
-
+| `sightings`→ `species` | Each sighting is linked to a specific species     |
+```
 ---
 
 ## **📂 Sample Data**
@@ -104,11 +110,11 @@ This assignment reinforces your understanding of relational databases while enga
 ### **1️⃣ `rangers` Table**
 
 ```markdown
-| ranger_id | name             | region        |
-|-----------|------------------|---------------|
-| 1         | Alice Green      | Northern Hills|
-| 2         | Bob White        | River Delta   |
-| 3         | Carol King       | Mountain Range|
+| ranger_id | name             | region         |
+|-----------|------------------|--------------- |
+| 1         | Alice Green      | Northern Hills |
+| 2         | Bob White        | River Delta    |
+| 3         | Carol King       | Mountain Range |
 
 ```
 
