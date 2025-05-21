@@ -147,21 +147,27 @@ This assignment reinforces your understanding of relational databases while enga
 ## **📂 PostgreSQL Problems & Sample Outputs -> 50 Marks**
 
 1️⃣ **Register a new ranger with provided data with name = 'Derek Fox' and region = 'Coastal Plains'**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
 (No output needed - this is an INSERT operation)
 ```
 
 2️⃣ **Count unique species ever sighted.**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
-unique_species_count
----------------------
-3
+| unique_species_count |
+| ---------------------|
+| 3                    |
 ```
 
 3️⃣ **Find all sightings where the location includes "Pass".**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
 | sighting_id | species_id | ranger_id | location      | sighting_time       | notes  |
 | ------------|------------|-----------|---------------|---------------------|--------|
@@ -169,51 +175,67 @@ unique_species_count
 ```
 
 4️⃣ **List each ranger's name and their total number of sightings.**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
-    name     | total_sightings 
--------------+-----------------
- Alice Green |               1
- Bob White   |               2
- Carol King  |               1
+| name        | total_sightings |
+|-------------|-----------------|
+| Alice Green | 1               |
+| Bob White   | 2               |
+| Carol King  | 1               |
+
 ```
 
 5️⃣ **List species that have never been sighted.**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
-   common_name    
-------------------
- Asiatic Elephant
+| common_name      |
+|------------------|
+| Asiatic Elephant |
+
 ```
 
 6️⃣ **Show the most recent 2 sightings.**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
- common_name  |     sighting_time      |   name    
---------------+------------------------+-----------
- Snow Leopard | 2024-05-18 18:30:00    | Bob White
- Red Panda    | 2024-05-15 09:10:00    | Carol King
+| common_name   | sighting_time        | name        |
+|---------------|----------------------|-------------|
+| Snow Leopard  | 2024-05-18 18:30:00  | Bob White   |
+| Red Panda     | 2024-05-15 09:10:00  | Carol King  |
+
 ```
 
 7️⃣ **Update all species discovered before 2000 to have status 'Historic'.**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
 (No output needed - this is an UPDATE operation)
 ```
 
 8️⃣ **Label each sighting's time of day as 'Morning', 'Afternoon', or 'Evening'.**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
- sighting_id | time_of_day 
--------------+-------------
-           1 | Morning
-           2 | Afternoon
-           3 | Morning
-           4 | Evening
+| sighting_id | time_of_day |
+|-------------|-------------|
+| 1           | Morning     |
+| 2           | Afternoon   |
+| 3           | Morning     |
+| 4           | Evening     |
+
 ```
 
 9️⃣ **Delete rangers who have never sighted any species**
-**Corrected Sample Output:**
+
+**Sample Output:**
+
 ```markdown
 (No output needed - this is a DELETE operation)
 ```
