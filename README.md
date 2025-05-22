@@ -211,7 +211,7 @@ AffectedRows : 1
 
 ```
 
-7️⃣ **Update all species discovered before year 1700 to have status 'Historic'.**
+7️⃣ **Update all species discovered before year 1800 to have status 'Historic'.**
 
 **Sample Output:**
 
