@@ -87,7 +87,7 @@ This assignment reinforces your understanding of relational databases while enga
 | `species_id`    | Which animal was seen (links to `species`) |
 | `sighting_time` | Date and time of the sighting              |
 | `location`      | Where it was seen                          |
-| `notes`         | Additional observations                    |
+| `notes`         | Additional observations (optional)         |
 ```
 
 > ✅ sighting_time tracks when an animal was seen — very useful for monitoring wildlife activity.
