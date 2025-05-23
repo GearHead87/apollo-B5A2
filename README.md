@@ -286,9 +286,9 @@ AffectedRows : 1
 
 | Date | Marks | Deadline Time |
 | --- | --- | --- |
-| **24 May, 2025** | **60 Marks** | Until **11:59 PM** |
-| **25 May, 2025** | **50 Marks** | Until **11:59 PM** |
-| **After 25 May, 2025** | **30 Marks** | Until **11:59 PM** |
+| **25 May, 2025** | **60 Marks** | Until **11:59 PM** |
+| **26 May, 2025** | **50 Marks** | Until **11:59 PM** |
+| **After 26 May, 2025** | **30 Marks** | Until **11:59 PM** |
 
 ---
 
